@@ -8,13 +8,68 @@
     tools:context=".MainActivity">
 
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="257dp"
-        android:layout_height="248dp"
-        app:srcCompat="@drawable/img_5622"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="83dp"
+
+
+    <LinearLayout
+        android:layout_width="416dp"
+        android:layout_height="643dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
         tools:ignore="MissingConstraints"
-        android:contentDescription="@string/profil" />
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="138dp">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:contentDescription="@string/header"
+            app:srcCompat="@drawable/entete_awa"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="11dp" />
+
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="221dp"
+            android:layout_height="252dp"
+            android:layout_gravity="center"
+            android:layout_margin="10sp"
+            android:background="@color/cardview_dark_background"
+            android:backgroundTint="#FAC0B1"
+            android:contentDescription="@string/profil"
+            app:srcCompat="@drawable/img_4970" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30sp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/hy_i_am_ndeye_awa_diop"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="357dp"
+            android:layout_height="88dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="20sp"
+            android:background="#FAC0B1"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/je_suis_developpeuse_web_et_mobile_vous_pouvez_voir_mes_projet_sur_github_ou_sur_mon_cv"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:ignore="RtlCompat" />
+
+
+    </LinearLayout>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
